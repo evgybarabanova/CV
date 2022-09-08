@@ -1,4 +1,6 @@
 import Router from 'next/router'
+import Head from 'next/head'
+import MainLayout from '../components/MainLayout'
 
 export default function Portfolio() {
 
@@ -7,7 +9,8 @@ export default function Portfolio() {
   }
 
   return (
-    <>
+    <MainLayout title='Portfolio Page'>
+
       <h1>
         COMMERCIAL PROJECTS:
       </h1>
@@ -46,6 +49,6 @@ export default function Portfolio() {
         <li>Worked with Bootstrap UI</li>
       </ul>
       <button onClick={linkClickHandle}> back to home</button>
-    </>
+    </MainLayout>
   )
 }

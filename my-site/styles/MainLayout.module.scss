@@ -1,0 +1,21 @@
+.main{
+  margin-top: 160px;
+}
+
+.nav {
+  position: fixed;
+  height: 60px;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+

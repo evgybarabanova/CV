@@ -1,4 +1,6 @@
 import Router from 'next/router'
+import Head from 'next/head'
+import MainLayout from '../components/MainLayout'
 
 export default function cv() {
 
@@ -7,7 +9,8 @@ export default function cv() {
   }
 
   return (
-    <>
+    <MainLayout title='CV Page'>
+
       <h1>
         TECHNICAL SKILLS:
       </h1>
@@ -28,6 +31,6 @@ export default function cv() {
         <p>I speak English (intermediate level)</p>
       </ul>
       <button onClick={linkClickHandle}> back to home</button>
-    </>
+    </MainLayout>
   )
 }

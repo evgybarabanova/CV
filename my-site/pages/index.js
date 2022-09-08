@@ -1,30 +1,34 @@
 import Link from 'next/link'
+import Head from 'next/head'
+import MainLayout from '../components/MainLayout'
+// import pic from '../public/pic.jpeg'
 
 export default function Index() {
   return (
-    <>
-    <div className='navbar'>
-    <p><Link href="/cv"><a>CV</a></Link></p>
-      <p><Link href="/contact"><a>Contact</a></Link></p>
-      <p><Link href="/portfolio"><a>Portfolio</a></Link></p>
-    </div>
-      <h1>
-        Hello World!
-      </h1>
-      <div className='container'>
-        <h2>My name Evgenia Barabanova</h2>
-        <p>I am FULL STACK DEVELOPER.
+    <MainLayout title='Main Page'>
+      <>
+        <h1>aaaaaaaaaaaaaa</h1>
+        {/* <img src={pic} alt='pic' /> */}
+        <h1>HI! I`M EVGENIA BARABANOVA</h1>
+        <p>FULL STACK DEVELOPER</p>
+        <p>Hello! I`m Evgenia Barabanova, full stack developer with 1 over of expirience.
           I am able to create a web application
-          from scratch both client-side and server-side.</p>
-        <ul>
-          <li>Motivated, well-disciplined individual</li>
-          <li>Finds joy in assisting others</li>
-          <li>Knowledgeable in conversational</li>
-          <li>English</li>
-          <li>Team player</li>
-        </ul>
-      </div>
-    </>
+          from scratch both client-side and server-side.
+        </p>
+        <div className='container'>
+          <p>Age: 31</p>
+          <p>Location: Moscow</p>
+          <p>email: evgybarabanova@gmail.com</p>
+          <p>phone: +7 927 190 63 92</p>
+          <p>Website: </p>
+          <p>Social Link</p>
+          <button>whats app</button>
+          <button>Telegram</button>
+          <button>linkedin</button>
+        </div>
+      </>
+    </MainLayout>
+
   )
 }
 
