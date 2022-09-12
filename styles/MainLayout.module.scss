@@ -4,12 +4,7 @@
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.main ul contact-icon{
-display: flex;
-justify-content: center;
-}
-
-.main img {
+.pic {
 height: 350px;
 width: 300px;
 float:left; 
@@ -31,18 +26,16 @@ color: rgb(127, 136, 255);
   top: 0;
   right: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 2rem;
   align-items: center;
   font-size:large;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #fff;
 }
 
-.nav a {
+.nav a, .main a {
   color: black;
-  text-decoration: none;
-}
-
-.Link{
   text-decoration: none;
 }
 

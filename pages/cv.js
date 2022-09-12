@@ -1,6 +1,6 @@
 import Router from 'next/router'
-import Head from 'next/head'
 import MainLayout from '../components/MainLayout'
+import classes from '../styles/cv.module.scss'
 
 export default function cv() {
 
@@ -10,25 +10,24 @@ export default function cv() {
 
   return (
     <MainLayout title='CV Page'>
-
-      <h1>SKILLS:</h1>
-      <ul>
-        <li>Front-end:</li>
+      <h1 className='h1'>SKILLS:</h1>
+      <div className='cv-page'>
+        <h2>Front-end:</h2>
         <p>React, Redux (Thunk, Saga), JS (ES6), HTML5, CSS3, SCSS, Bootstrap, Material UI, Next.js</p>
-        <li>Back-end:</li>
+        <h2>Back-end:</h2>
         <p>NodeJs, Express, WebSocket</p>
-        <li>DB:</li>
+        <h2>DB:</h2>
         <p>PostgreSQL, Sequelize ORM</p>
-        <li>Test:</li>
+        <h2>Test:</h2>
         <p>Jest</p>
-        <li>API:</li>
+        <h2>API:</h2>
         <p>Yandex, Google</p>
-        <li>Another:</li>
+        <h2>Another:</h2>
         <p>GitHub, VS Code, Slack, Trello, Jira, Webpack, Figma</p>
         <p>I am used to solving complex problems and quickly understand what is required of me.</p>
         <p>I speak English (intermediate level)</p>
-      </ul>
-      <button onClick={linkClickHandle}> back to home</button>
+      </div>
+      <button onClick={linkClickHandle} className='button-click'>back to home</button>
     </MainLayout>
   )
 }

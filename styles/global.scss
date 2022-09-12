@@ -1,0 +1,45 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+.contact-icon{
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-icon button{
+  border: none;
+  background-color: transparent;
+  font-size: large;
+}
+
+.button-click{
+    border: none;
+    background-color: transparent; 
+    font-size: large;
+    margin-top: 4rem;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.li{
+  text-align: left;
+}
+
+.portfolio-page li{
+text-align: left;
+}
+
+.h1{
+  margin-top: 5rem;
+}
+
+.gif{
+  height: 300px;
+  width: 600px;
+  margin-top: 2rem;
+}
