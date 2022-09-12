@@ -1,5 +1,27 @@
 .main{
-  margin-top: 160px;
+  margin: 80px;
+ font-size:large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main ul contact-icon{
+display: flex;
+justify-content: center;
+}
+
+.main img {
+height: 350px;
+width: 300px;
+float:left; 
+margin: 7px 27px 7px 0px; 
+ }
+
+ .main p{
+  line-height: 3rem;
+ }
+
+.main span{
+color: rgb(127, 136, 255);
 }
 
 .nav {
@@ -8,14 +30,19 @@
   left: 0;
   top: 0;
   right: 0;
-  background: grey;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size:large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .nav a {
   color: black;
+  text-decoration: none;
+}
+
+.Link{
   text-decoration: none;
 }
 

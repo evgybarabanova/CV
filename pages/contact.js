@@ -1,5 +1,6 @@
 import Router from 'next/router'
-import Head from 'next/head'
+import Link from 'next/link'
+// import Head from 'next/head'
 import MainLayout from '../components/MainLayout'
 
 export default function Contact() {
@@ -10,16 +11,18 @@ export default function Contact() {
 
   return (
     <MainLayout title='Contact Page'>
+      <div className='mainPage'>
+        <h1>My contact</h1>
+        <ul className='contact-icon'>
+          <button><Link href='https://api.whatsapp.com/send/?phone=79271906392&text=Hello%2C+Evgenia'>Phone</Link></button>
+          <button><Link href='https://github.com/evgybarabanova'>GitHub</Link></button>
+          <button><Link href='https://linkedin.com/in/evgybar'>LinkedIn</Link></button>
+          <button><Link href='https://t.me/EVGYBAR'>Telegram</Link></button>
+          <button><Link href='mailto:evgybarabanova@gmail.com'>Email</Link></button>
+        </ul>
+        <button onClick={linkClickHandle}> back to home</button>
+      </div>
 
-      <h1>My contact</h1>
-      <ul>
-        <li>phone, +7 927 190 63 92</li>
-        <li>GitHub, https://github.com/evgybarabanova</li>
-        <li>LinkedIn, https://linkedin.com/in/evgy-bar</li>
-        <li>Telegram, @evgybar</li>
-        <li>e-mail,evgybarabanova@gmail.com</li>
-      </ul>
-      <button onClick={linkClickHandle}> back to home</button>
     </MainLayout>
   )
 }

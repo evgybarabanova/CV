@@ -11,13 +11,11 @@ export default function cv() {
   return (
     <MainLayout title='CV Page'>
 
-      <h1>
-        TECHNICAL SKILLS:
-      </h1>
+      <h1>SKILLS:</h1>
       <ul>
-        <li> Front-end:</li>
-        <p> React, Redux (Thunk, Saga), JS (ES6), HTML5, CSS3, SCSS, Bootstrap, Material UI, Next.js</p>
-        <li> Back-end: </li>
+        <li>Front-end:</li>
+        <p>React, Redux (Thunk, Saga), JS (ES6), HTML5, CSS3, SCSS, Bootstrap, Material UI, Next.js</p>
+        <li>Back-end:</li>
         <p>NodeJs, Express, WebSocket</p>
         <li>DB:</li>
         <p>PostgreSQL, Sequelize ORM</p>

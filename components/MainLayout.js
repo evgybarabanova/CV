@@ -16,7 +16,7 @@ export default function MainLayout({ children, title = 'App Evgenia Barabanova' 
         <Link href="/contact"><a>Contact</a></Link>
         <Link href="/portfolio"><a>Portfolio</a></Link>
       </nav>
-      <main>
+      <main className={classes.main}>
         {children}
       </main>
     </>
