@@ -1,6 +1,5 @@
 import Router from 'next/router'
 import MainLayout from '../components/MainLayout'
-import classes from '../styles/cv.module.scss'
 
 export default function cv() {
 
