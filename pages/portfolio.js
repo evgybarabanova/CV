@@ -36,6 +36,7 @@ export default function Portfolio() {
             with Telegram Bot API, Google Translate API, Advice API</li>
           <li>Provided assistance in finding and fixing bugs in the
             application code.</li>
+            <img className='gif2' src="gif2.gif" alt='gif2'/>
             <p>
           <Link href="https://github.com/evgybarabanova/Telegram-Bot-Advice"><a>GitHub page of project</a></Link>
           </p>  
@@ -71,6 +72,7 @@ export default function Portfolio() {
           <li>Deleting notes</li>
           <li>Searching notes</li>
           <li>Updating notes</li>
+          <img className='gif3' src="gif3.gif" alt='gif3'/>
         </ul>
       </div>
       <button onClick={linkClickHandle} className='button-click'> back to home</button>
