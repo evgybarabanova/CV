@@ -12,7 +12,7 @@ export default function cv() {
       <h1 className='h1'>SKILLS:</h1>
       <div className='cv-page'>
         <h2>Front-end:</h2>
-        <p>React, Redux (Thunk, Saga), JS (ES6), HTML5, CSS3, SCSS, Bootstrap, Material UI, Next.js</p>
+        <p>React, Redux (Thunk, Saga), JS (ES6), HTML5, CSS3, SCSS, Tailwind UI, Bootstrap, Material UI, Next.js</p>
         <h2>Back-end:</h2>
         <p>NodeJs, Express, WebSocket</p>
         <h2>DB:</h2>
