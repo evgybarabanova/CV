@@ -5,14 +5,14 @@
 }
 
 .pic {
-height: 350px;
-width: 300px;
+height: 270px;
+width: 220px;
+margin: 0px, 0px, 0px 0px;
 float:left; 
-margin: 7px 27px 7px 0px; 
  }
 
- .main p{
-  line-height: 3rem;
+.main p{
+line-height: 3rem;
  }
 
 .main span{
@@ -39,3 +39,10 @@ color: rgb(127, 136, 255);
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+    }

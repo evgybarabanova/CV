@@ -19,6 +19,9 @@ export default function Contact() {
           <button><Link href='https://t.me/EVGYBAR'>Telegram</Link></button>
           <button><Link href='mailto:evgybarabanova@gmail.com'>Email</Link></button>
         </ul>
+        <p>
+        {/* <button className='dowload'>Dowload resume</button> */}
+        </p>
         <button onClick={linkClickHandle} className='button-click'> back to home</button>
       </div>
 
