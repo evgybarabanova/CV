@@ -46,9 +46,8 @@ export default function Portfolio() {
         <p>Web application for comfortable environment
           for pets and their owners, created to search for
           specialists, services and information</p>
-        <ul>
-          <li> Managed the project, combined the roles of team lead and
-            developer</li>
+        <ul className='petson'>
+          <p> Managed the project</p>
           <li>Developed the architecture and logic of the project</li>
           <li>Formed functional components on React</li>
           <li>Worked with PostgreSQL database using Sequelize</li>

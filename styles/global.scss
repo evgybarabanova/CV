@@ -6,7 +6,8 @@ text-align: center;
 .contact-icon{
   margin-top: 4rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .contact-icon button{
@@ -15,11 +16,12 @@ text-align: center;
   font-size: large;
 }
 
-.button-click{
+.button-click, .dowload{
     border: none;
     background-color: transparent; 
     font-size: large;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    cursor: pointer;
 }
 
 .link{
@@ -34,9 +36,10 @@ text-align: center;
 text-align: left;
 }
 
-.h1{
+.h1, .h2{
   margin-top: 5rem;
 }
+
 
 .gif{
   height: 300px;
@@ -54,4 +57,37 @@ text-align: left;
   height: 500px;
   width: 400px;
   margin-top: 2rem;
+}
+
+
+  @media (max-width: 768px) {
+
+  //  .petson{
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //  }
+
+   .contact-icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+    }
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  h1{
+    @apply text-4xl text-black
+  }
+  h2{
+    @apply text-2xl text-black
+  }
 }
