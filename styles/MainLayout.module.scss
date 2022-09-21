@@ -4,15 +4,8 @@
  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.pic {
-height: 270px;
-width: 220px;
-margin: 0px, 0px, 0px 0px;
-float:left; 
- }
-
 .main p{
-line-height: 3rem;
+line-height: 2rem;
  }
 
 .main span{
@@ -27,7 +20,7 @@ color: rgb(127, 136, 255);
   right: 0;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: center;
   font-size:large;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -45,4 +38,8 @@ color: rgb(127, 136, 255);
     flex-direction: row;
     align-items: center;
   }
+    }
+
+    .logo{
+      size: 1rem;
     }

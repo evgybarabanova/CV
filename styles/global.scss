@@ -1,19 +1,21 @@
 *{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-align: center;
+font-size:large;
 }
 
 .contact-icon{
-  margin-top: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .contact-icon button{
   border: none;
   background-color: transparent;
-  font-size: large;
+
 }
 
 .button-click, .dowload{
@@ -36,38 +38,24 @@ text-align: center;
 text-align: left;
 }
 
-.h1, .h2{
-  margin-top: 5rem;
-}
-
-
 .gif{
-  height: 300px;
-  width: 600px;
-  margin-top: 2rem;
-}
-
-.gif2{
-  height: 500px;
+  height: 200px;
   width: 300px;
   margin-top: 2rem;
 }
 
-.gif3{
-  height: 500px;
-  width: 400px;
+.gif2{
+  height: 400px;
+  width: 200px;
   margin-top: 2rem;
 }
 
+.gif3{
+  height: 400px;
+  width: 300px;
+  margin-top: 2rem;
+}
 
-  @media (max-width: 768px) {
-   .contact-icon{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-   }
-    }
 
 
 
@@ -78,9 +66,42 @@ text-align: left;
 
 @layer base{
   h1{
-    @apply text-4xl text-black
+    @apply text-3xl text-black
+    
   }
   h2{
     @apply text-2xl text-black
+  }
+}
+
+@layer utilities {
+  .logomain {
+    height: 50px;
+    width: 50px;
+  }
+  .logocontact{
+    height: 30px;
+    width: 30px;
+  }
+  .pic {
+    height: 180px;
+    width: 200px;
+    margin-top: 3rem;
+     }
+  .pr1, .pr4, .front{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-width: 4px;
+  }
+  .pr2, .pr3, .back, .db, .test, .api, .another{
+    margin-bottom: 2rem;  
+    border-width: 4px;
+  }
+  .main{
+    margin-right: 1rem;     
+    border-width: 4px;
+  }
+  .contact{
+    border-width: 4px; 
   }
 }
