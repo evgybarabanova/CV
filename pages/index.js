@@ -13,9 +13,9 @@ export default function Index() {
         I'm able to create web applications
         <br /> from scratch, both in client and server side.
       </p>
-      <Link href="/contact"><a>Contact me!</a></Link>
-        <img  className='pic' src='/yoga.png' alt='logo' />
+        {/* <img  className='pic' src='/yoga.png' alt='logo' /> */}
       </div>
+      <Link href="/contact"><a>Contact me!</a></Link>
     </MainLayout>
   )
 }

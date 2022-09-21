@@ -56,9 +56,6 @@ text-align: left;
   margin-top: 2rem;
 }
 
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -88,19 +85,24 @@ text-align: left;
     width: 200px;
     margin-top: 3rem;
      }
+
   .pr1, .pr4, .front{
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-width: 4px;
   }
+
   .pr2, .pr3, .back, .db, .test, .api, .another{
     margin-bottom: 2rem;  
     border-width: 4px;
   }
+
   .main{
     margin-right: 1rem;     
     border-width: 4px;
+    margin-bottom: 2rem;
   }
+
   .contact{
     border-width: 4px; 
   }
